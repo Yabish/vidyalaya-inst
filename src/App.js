@@ -1,9 +1,14 @@
 import './App.css';
+import AboutSection from './components/AboutPage';
+import HomePage from './components/HomePage';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App bg-red-500">
-      <p className='text-center text-xl'>hello world!</p>
+    <div className="App">
+      <NavBar />
+      <HomePage />
+      <AboutSection />
     </div>
   );
 }
