@@ -1,14 +1,13 @@
 import './App.css';
-import AboutSection from './components/AboutPage';
-import HomePage from './components/HomePage';
-import NavBar from './components/NavBar';
+import Landing from "./screens/Landing.jsx";
+
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <HomePage />
-      <AboutSection />
+
+      <Landing />
     </div>
   );
 }
